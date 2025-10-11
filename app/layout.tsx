@@ -9,14 +9,6 @@ export const metadata = {
   metadataBase: new URL("https://jl-portfolio.vercel.app"),
   title: "Jonathan Licurse — Portfolio",
   description: "Embedded Systems & AI — building real-time control and compute tools.",
-  openGraph: {
-    title: "Jonathan Licurse — Portfolio",
-    description: "Embedded Systems & AI — building real-time control and compute tools.",
-    url: "https://jl-portfolio.vercel.app",
-    type: "website",
-    images: ["/og-image.png"],
-  },
-  icons: { icon: "/favicon.ico" },
 } satisfies Metadata; // ✅ ensures the object matches Next's Metadata type
 
 export default function RootLayout({ children }: { children: ReactNode }) {
