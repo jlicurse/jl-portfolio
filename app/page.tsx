@@ -2,10 +2,18 @@ import Link from "next/link";
 export default function Page(){
   return(<section className="py-16">
     <h1 className="text-4xl md:text-5xl font-bold">Jonathan Licurse</h1>
-    <p className="mt-4 text-lg text-[color:var(--muted)] max-w-prose">CS @ SUNY New Paltz. Embedded Systems & AI — building real-time control and compute tools.</p>
+    <p className="mt-4 text-lg text-[color:var(--muted)] max-w-prose">CS @ SUNY New Paltz. Software and Embedded Systems Engineering.</p>
     <div className="mt-6 flex gap-4">
       <Link href="/projects" className="no-underline rounded-xl bg-white/10 px-5 py-3">View Projects</Link>
       <Link href="/contact" className="no-underline rounded-xl border border-white/20 px-5 py-3">Contact</Link>
+      <a
+        href = "/resume.pdf"
+        target = "_blank" 
+        rel = "noopener"
+        className ="no-underline rounded-xl border border-white/20 px-5 py-3"
+      >
+       Download Resume
+      </a>
     </div>
 
     <div className="mt-12 grid gap-6 md:grid-cols-2">

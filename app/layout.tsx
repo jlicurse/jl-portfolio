@@ -14,7 +14,7 @@ export const metadata = {
 } satisfies Metadata; // ensures the object matches Next's Metadata type
 
 export default function RootLayout({ children }: { children: ReactNode }) {
-  // IMPORTANT: do NOT add 'use client' in this file.
+  // IMPORTANT: do NOT add 'use client' in this file.wh
   return (
     <html lang="en">
       <body>
